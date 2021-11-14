@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Container, Menu, Card, List } from "./styles.js"
+import { Container, Menu, Card } from "./styles.js"
 import avatar from "../../assets/image-jeremy.png"
 
 

@@ -36,7 +36,7 @@ export const Container = styled.div`
   @media (min-width: 380px) {
     display: grid;
     grid-template-columns: 25rem 20rem 20rem 20rem;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 20rem 20rem;
     justify-content: space-between;
     padding: 10rem 15rem;
   }
@@ -58,7 +58,7 @@ export const Menu = styled.div`
   @media (min-width: 380px) {
     grid-row-start: 1;
     grid-row-end: 3;
-    height: 40rem;
+    height: 100%;
     width: 100%;
   }
 

@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.js": "/FEM-Time-control/static/js/main.6d8f2317.chunk.js",
-    "main.js.map": "/FEM-Time-control/static/js/main.6d8f2317.chunk.js.map",
-    "runtime-main.js": "/FEM-Time-control/static/js/runtime-main.bd6b43d9.js",
-    "runtime-main.js.map": "/FEM-Time-control/static/js/runtime-main.bd6b43d9.js.map",
-    "static/js/2.3edf3ef2.chunk.js": "/FEM-Time-control/static/js/2.3edf3ef2.chunk.js",
-    "static/js/2.3edf3ef2.chunk.js.map": "/FEM-Time-control/static/js/2.3edf3ef2.chunk.js.map",
-    "index.html": "/FEM-Time-control/index.html",
-    "static/js/2.3edf3ef2.chunk.js.LICENSE.txt": "/FEM-Time-control/static/js/2.3edf3ef2.chunk.js.LICENSE.txt",
-    "static/media/icon-ellipsis.a57a4ac8.svg": "/FEM-Time-control/static/media/icon-ellipsis.a57a4ac8.svg",
-    "static/media/icon-exercise.3e7b0282.svg": "/FEM-Time-control/static/media/icon-exercise.3e7b0282.svg",
-    "static/media/icon-play.e8d4e569.svg": "/FEM-Time-control/static/media/icon-play.e8d4e569.svg",
-    "static/media/icon-self-care.a161aff5.svg": "/FEM-Time-control/static/media/icon-self-care.a161aff5.svg",
-    "static/media/icon-social.64be0c18.svg": "/FEM-Time-control/static/media/icon-social.64be0c18.svg",
-    "static/media/icon-study.1f0a65e4.svg": "/FEM-Time-control/static/media/icon-study.1f0a65e4.svg",
-    "static/media/icon-work.a3f124e5.svg": "/FEM-Time-control/static/media/icon-work.a3f124e5.svg",
-    "static/media/image-jeremy.71cd41f1.png": "/FEM-Time-control/static/media/image-jeremy.71cd41f1.png"
+    "main.js": "/static/js/main.6d8f2317.chunk.js",
+    "main.js.map": "/static/js/main.6d8f2317.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.43eb099a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.43eb099a.js.map",
+    "static/js/2.401ee418.chunk.js": "/static/js/2.401ee418.chunk.js",
+    "static/js/2.401ee418.chunk.js.map": "/static/js/2.401ee418.chunk.js.map",
+    "index.html": "/index.html",
+    "static/js/2.401ee418.chunk.js.LICENSE.txt": "/static/js/2.401ee418.chunk.js.LICENSE.txt",
+    "static/media/icon-ellipsis.a57a4ac8.svg": "/static/media/icon-ellipsis.a57a4ac8.svg",
+    "static/media/icon-exercise.3e7b0282.svg": "/static/media/icon-exercise.3e7b0282.svg",
+    "static/media/icon-play.e8d4e569.svg": "/static/media/icon-play.e8d4e569.svg",
+    "static/media/icon-self-care.a161aff5.svg": "/static/media/icon-self-care.a161aff5.svg",
+    "static/media/icon-social.64be0c18.svg": "/static/media/icon-social.64be0c18.svg",
+    "static/media/icon-study.1f0a65e4.svg": "/static/media/icon-study.1f0a65e4.svg",
+    "static/media/icon-work.a3f124e5.svg": "/static/media/icon-work.a3f124e5.svg",
+    "static/media/image-jeremy.71cd41f1.png": "/static/media/image-jeremy.71cd41f1.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.bd6b43d9.js",
-    "static/js/2.3edf3ef2.chunk.js",
+    "static/js/runtime-main.43eb099a.js",
+    "static/js/2.401ee418.chunk.js",
     "static/js/main.6d8f2317.chunk.js"
   ]
 }

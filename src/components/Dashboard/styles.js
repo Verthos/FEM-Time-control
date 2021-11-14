@@ -33,7 +33,7 @@ export const Container = styled.div`
     background: var(--light-red-study);
   }
 
-  @media (min-width: 380px) {
+  @media (min-width: 450px) {
     display: grid;
     grid-template-columns: 25rem 20rem 20rem 20rem;
     grid-template-rows: 20rem 20rem;
@@ -55,7 +55,7 @@ export const Menu = styled.div`
   padding-bottom: 2vh;
   color: white;
 
-  @media (min-width: 380px) {
+  @media (min-width: 450px) {
     grid-row-start: 1;
     grid-row-end: 3;
     height: 100%;
@@ -78,7 +78,7 @@ export const Menu = styled.div`
 
     }
 
-    @media (min-width: 380px) {
+    @media (min-width: 450px) {
       flex-direction: column;
       width: 100%;
       height: 8rem;
@@ -110,7 +110,7 @@ export const Menu = styled.div`
       display: flex;
       flex-direction: column;
 
-      @media (min-width: 380px) {
+      @media (min-width: 450px) {
         position: absolute;
         width: 100%;
         left: 2rem;
@@ -127,7 +127,7 @@ export const Menu = styled.div`
       border: 2px solid white;
       border-radius: 50%;
 
-      @media (min-width: 380px) {
+      @media (min-width: 450px) {
         flex-direction: column;
         position: absolute;
         top: 2rem;
@@ -135,7 +135,7 @@ export const Menu = styled.div`
       }
     }
 
-    @media (min-width: 380px) {
+    @media (min-width: 450px) {
       flex-direction: column;
     }
   }
@@ -155,7 +155,7 @@ export const Card = styled.section`
     width: 4rem;
   }
 
-  @media (min-width: 380px) {
+  @media (min-width: 450px) {
     height: 100%;
     width: 100%;
   }
@@ -188,7 +188,7 @@ export const Card = styled.section`
         filter: brightness(180%);
     };
 
-    @media (min-width: 380px) {
+    @media (min-width: 450px) {
       height: 85%;
       flex-direction: column;
     }
@@ -210,7 +210,7 @@ export const Card = styled.section`
         font-size: 18px;
         font-weight: 400;
 
-        @media (min-width: 380px) {
+        @media (min-width: 450px) {
           margin-left: 0;
           line-height: 5rem;
         }
@@ -220,7 +220,7 @@ export const Card = styled.section`
         margin-left: 50%;
         font-size: 2rem;
         font-weight: 300;
-        @media (min-width: 380px) {
+        @media (min-width: 450px) {
           margin-left: 0;
           font-size: 4rem;
         }
@@ -231,7 +231,7 @@ export const Card = styled.section`
         font-weight: 400;
 
 
-        @media (min-width: 380px) {
+        @media (min-width: 450px) {
           height: 100%;
           padding-top: 1rem;
           margin-left: 0;
@@ -240,7 +240,7 @@ export const Card = styled.section`
         }
       }
 
-      @media (min-width: 380px) {
+      @media (min-width: 450px) {
         padding-left: 3rem;
       }
     }

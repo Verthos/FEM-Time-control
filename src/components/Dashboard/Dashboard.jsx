@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Container, Menu, Card } from "./styles.js"
+import { Container, Menu, Card, List } from "./styles.js"
 import avatar from "../../assets/image-jeremy.png"
 
 
@@ -40,7 +40,7 @@ export function Dashboard() {
                     <section>
                         Report for
                         <span>
-                            Jerimy Robson
+                            Jeremy Robson
                         </span>
                     </section>
                 </div>
@@ -50,26 +50,27 @@ export function Dashboard() {
                     <li onClick={() => handleIsSelected("monthly")} className={isSelected === "monthly" ? "active" : "inactive"}> Monthly</li>
                 </ul>
             </Menu>
-
-            {data.map((card) => {              
-                return(
-                    <Card className={card.title}>
-                        <img src={images[`${card.title}`]} alt="2" />
-                        <div className="content">
-                            <section>
-                                <h1>{card.title}</h1>
-                                <h2>{card.timeframes[`${isSelected}`].current}Hrs</h2>
-                            </section>
-                            <section>
+                {data.map((card) => {              
+                    return(
+                        <Card className={card.title}>
+                            <img src={images[`${card.title}`]} alt="2" />
+                            
+                            <div className="content">
                                 <div className="options">
                                     <img src={images.Ellipsis} alt="ellipsis" />
                                 </div>
-                                <h3>Last week - {card.timeframes[`${isSelected}`].previous}Hrs</h3>
-                            </section>
-                        </div>
-                    </Card>
-                )
-            })}
+                                <section>
+                                    <h1>{card.title}</h1>
+                                    <h2>{card.timeframes[`${isSelected}`].current}Hrs</h2>
+                                </section>
+                                <section>
+                                    
+                                    <h3>Last week - {card.timeframes[`${isSelected}`].previous}Hrs</h3>
+                                </section>
+                            </div>
+                        </Card>
+                    )
+                })}
         </Container>
     )
 }

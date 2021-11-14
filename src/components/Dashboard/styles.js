@@ -32,6 +32,15 @@ export const Container = styled.div`
     .Study{
         background: var(--light-red-study);
     }
+
+    @media(min-width: 380px){
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        justify-content: space-between;
+        padding: 15rem 15rem
+    }
+
 `
 
 export const Menu = styled.div`
@@ -46,7 +55,13 @@ export const Menu = styled.div`
     padding: 0 2rem;
     padding-bottom: 2vh;
     color: white;
-
+    
+    @media(min-width: 380px){
+        grid-row-start: 1;
+        grid-row-end: 3;
+        height: 40rem;
+        width: 18vw;
+    }
 
     ul{
         display: flex;
@@ -56,9 +71,19 @@ export const Menu = styled.div`
         list-style: none;
         color: var(--Desaturated-blue);
 
+        @media(min-width: 380px){
+            flex-direction: column ;
+            width: 100%;
+            height: 8rem;
+            align-items: flex-start;
+            justify-content: space-between;
+            
+        }
+
         .active{
             color: white
         }
+        
     }
 
     .userInfo{
@@ -79,15 +104,42 @@ export const Menu = styled.div`
             width: 50%;
             display: flex;
             flex-direction: column;
+
+            @media(min-width: 380px){
+
+                position: absolute;
+                width: 100%;
+                left: 2rem;
+                bottom: 6rem;
+                span{
+                    font-size: 4rem;
+                    line-height: 4rem;
+                }
+            }
         }
 
         img{
             width: 5rem;
             border: 2px solid white;
             border-radius: 50%;
+            
+            @media(min-width: 380px){
+                flex-direction: column;     
+                position: absolute;
+                top: 2rem;
+                left: 2rem;
+            }
+        }
+
+        @media(min-width: 380px){
+            flex-direction: column;    
+
         }
     }
+
+    
 `
+
 
 
 export const Card = styled.section`
@@ -105,6 +157,26 @@ export const Card = styled.section`
 
     }
 
+    @media(min-width: 380px){
+        height: 100%;
+        width: 100%;
+    }
+
+    .options{
+        position: absolute;
+        width: 100%;
+
+        img{
+            position: absolute;
+            width: 1.5rem;
+            right: 2rem;
+            top: 2rem;
+            &:hover{
+                filter: brightness(120);
+            }                 
+        }
+    }
+
     .content{
         position: absolute;
         display: flex;
@@ -113,6 +185,11 @@ export const Card = styled.section`
         height: 75%;
         border-radius: 1.2rem;
         background: var(--Dark-blue);
+
+        @media(min-width: 380px){
+            height: 85%;
+            flex-direction: column;
+        }
 
         section{
             display: flex;
@@ -124,40 +201,32 @@ export const Card = styled.section`
             justify-content: center;
             color: white;
             text-align: left;
+            padding-top: 3rem;
 
-           
 
             h1{
                 width: 100%;
-                margin-left: 50%;
+                @media(min-width: 380px){
+                    margin-left: 0;
+                }
             }
             h2{
                 width: 100%;
                 margin-left: 50%;
                 font-size: 2rem;
                 font-weight: lighter;
+                @media(min-width: 380px){
+                    margin-left: 0;
+                    font-size: 3rem;
+                }
             }
             h3{
                 width: 100%;
                 color: var(--Desaturated-blue)
             }
 
-
-            .options{
-                position: relative;
-                height: 1rem;
-                width: 100%;
-
-                img{
-                    position: absolute;
-                    width: 1.5rem;
-                    right: 2rem;
-                    top: 0;
-                    &:hover{
-                        filter: brightness(120);
-                    }
-                    
-                }
+            @media(min-width: 380px){
+                padding-left: 3rem;
             }
         }
     }

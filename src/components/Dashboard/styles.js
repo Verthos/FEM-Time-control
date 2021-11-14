@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  width: 100vw;
   min-height: 100vh;
   background: var(--Very-dark-blue);
   display: flex;
@@ -9,6 +8,7 @@ export const Container = styled.div`
   align-items: center;
   padding: 4rem 0;
   grid-gap: 2rem;
+
 
   li {
     cursor: pointer;
@@ -35,10 +35,10 @@ export const Container = styled.div`
 
   @media (min-width: 380px) {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 25rem 20rem 20rem 20rem;
     grid-template-rows: 1fr 1fr;
     justify-content: space-between;
-    padding: 15rem 15rem;
+    padding: 10rem 15rem;
   }
 `;
 
@@ -59,7 +59,7 @@ export const Menu = styled.div`
     grid-row-start: 1;
     grid-row-end: 3;
     height: 40rem;
-    width: 18vw;
+    width: 100%;
   }
 
   ul {
